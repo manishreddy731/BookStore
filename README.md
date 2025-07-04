@@ -75,7 +75,7 @@ contributing: "Feel free to fork this repo and submit pull requests.
   license: "MIT"
 
   author:
-  ``
+  
     name: "Manish Reddy"
-    `
+    
     github: "https://github.com/manishreddy731"
