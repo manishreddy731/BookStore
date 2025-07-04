@@ -1,0 +1,25 @@
+<% layout('layouts/boilerplate') %> 
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="card mb-3">
+            <img src="<%=foundBook.img%>" class="card-img-top" style="height:400px">
+            <div class="card-body">
+              <h5 class="card-title"><%=foundBook.name %></h5>
+              <p class="card-text"><%=foundBook.description %></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><b>By : <a href="/books?author=<%=foundBook.author%>"><%=foundBook.author%></a></b></li>
+              <li class="list-group-item text-muted">₹<%=foundBook.price%></li>
+              <li class="list-group-item text-muted">Pages : <%=foundBook.pages%></li>
+            </ul>
+            <div class="card-body">
+              <a href="/books/<%=foundBook.id%>/edit" class="card-link btn btn-info">EDIT!</a>
+              <form class="d-inline" action="/books/<%=foundBook.id%>?_method=DELETE" method ="POST">
+                <button class="btn btn-danger">DELETE!</button>
+              </form>
+              <a href="/books" class="card-link btn btn-success">HOME!</a>
+              
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<% layout('layouts/boilerplate') %> 
+    <h1 class="text-center"><%=author %>  BOOKS</h1>
+    <% for(let book of books){ %>
+        <div class="card mx-4 my-3" style="width: 15rem; display:inline-block;">
+            <img src="<%=book.img%>" class="card-img-top" alt="" style="height:300px; width:14.95rem">
+            <div class="card-body">
+              <h5 class="card-title"><%=book.name%> </h5>
+              <h6 class="card-subtitle mb-2 text-muted">By: <%=book.author %> </h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Pages: <%=book.pages%></li>
+              <li class="list-group-item">Price: ₹<%= book.price%></li>
+            </ul>
+            <div class="card-body">
+              <a href="/books/<%=book.id %> " class="card-link btn btn-primary w-100">Details</a>
+            </div>
+          </div>
+    <% } %>
+    <!-- <a href="/books/new">NEW BOOK</a>
+    //<% if(author !== "ALL") {%> 
+        <a href="/books">ALL BOOKS</a>
+    //<% } %>  -->
