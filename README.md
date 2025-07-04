@@ -39,15 +39,24 @@ readme:
     └── package-lock.json         # Dependency tree lock
 ```
   getting_started:
+  
     prerequisites:
+    
       - "Node.js and npm"
       - "MongoDB (local or Atlas)"
+      
     installation: |
+    
       git clone https://github.com/manishreddy731/BookStore.git
+      
       cd BookStore
+      
       npm install
+      
     run_local: |
+    
       npm start
+      
       # Visit http://localhost:8000  
 screenshots:
   
