@@ -1,4 +1,3 @@
-readme:
   title: "📚 BookStore"
   description: "A simple web application to manage your personal collection of books. Users can add, view, and delete books using a clean, responsive interface."
 
