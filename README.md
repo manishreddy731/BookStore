@@ -8,7 +8,7 @@ readme:
     - "View detailed information for each book"
     - "Delete books you no longer need"
     - "Flash messages for actions (success/errors)"
-    - "User authentication (if applicable)"
+    - "User authentication (register/login)"
     - "Responsive UI using EJS templates"
 
   tech_stack:
@@ -16,35 +16,41 @@ readme:
     backend: "Node.js, Express.js"
     database: "MongoDB"
     tools: "Git, Nodemon"
-
+```
   project_structure: |
     BookStore/
- ```   │
-    ├── models/             # Mongoose schemas (Book, User)
-    ├── public/             # Static assets (CSS, JS)
-    ├── views/              # EJS templates (pages and partials)
-    ├── routes/             # Application routes (if modularized)
-    ├── index.js            # Main server file
-    ├── seeds.js            # DB seeding script
+    ├── models/                   # Mongoose schemas (book.js, user.js)
+    ├── public/
+    │   ├── javascript/           # Form validation scripts (validatedForm.js)
+    │   └── stylesheets/          # CSS styles (home.css)
+    ├── views/
+    │   ├── books/                # Pages: index, new, edit, show
+    │   ├── users/                # Pages: login, register
+    │   ├── layouts/              # Boilerplate layout
+    │   ├── partials/             # Navbar, footer, flash messages
+    │   └── home.ejs              # Landing page
     ├── .gitignore
-    ├── package.json
-    └── vercel.json         # Deployment config (if using Vercel)
+    ├── Procfile
+    ├── README.md
+    ├── index.js                  # Main server file
+    ├── seeds.js                  # Database seeding
+    ├── vercel.json               # Vercel deployment config
+    ├── package.json              # Project metadata and dependencies
+    └── package-lock.json         # Dependency tree lock
 ```
   getting_started:
     prerequisites:
       - "Node.js and npm"
-      - "MongoDB (local or MongoDB Atlas)"
+      - "MongoDB (local or Atlas)"
     installation: |
       git clone https://github.com/manishreddy731/BookStore.git
       cd BookStore
       npm install
     run_local: |
       npm start
-      # Visit http://localhost:8000
-
-  screenshots:
+      # Visit http://localhost:8000  
+screenshots:
   
-
 HOME page:
 ![Screenshot 2025-07-04 153610](https://github.com/user-attachments/assets/02ab3d65-2c4e-4547-98a2-673da69a4d36)
 SIGN UP page:
