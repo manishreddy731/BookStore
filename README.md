@@ -42,15 +42,19 @@ readme:
       npm start
       # Visit http://localhost:8000
 
-  screenshots_note: "Add screenshots of the home page, book list, add form, etc."
+  screenshots:
   
 
-  
-![Screenshot 2025-07-04 153712](https://github.com/user-attachments/assets/68cd22c4-2f9c-45f2-9081-158143863011)
-![Screenshot 2025-07-04 153649](https://github.com/user-attachments/assets/6f9b5036-1407-47f7-8de9-9361c722ab32)
-![Screenshot 2025-07-04 153639](https://github.com/user-attachments/assets/afe81f7a-a969-4db1-ba26-0ee782f4646b)
-![Screenshot 2025-07-04 153622](https://github.com/user-attachments/assets/4876ca0f-0888-4db8-b950-d65550a29997)
+HOME page:
 ![Screenshot 2025-07-04 153610](https://github.com/user-attachments/assets/02ab3d65-2c4e-4547-98a2-673da69a4d36)
+SIGN UP page:
+![Screenshot 2025-07-04 153639](https://github.com/user-attachments/assets/afe81f7a-a969-4db1-ba26-0ee782f4646b)
+LOGIN page:
+![Screenshot 2025-07-04 153649](https://github.com/user-attachments/assets/6f9b5036-1407-47f7-8de9-9361c722ab32)
+ADD A BOOK page:
+![Screenshot 2025-07-04 153712](https://github.com/user-attachments/assets/68cd22c4-2f9c-45f2-9081-158143863011)
+BOOKS DATABASE page:
+![Screenshot 2025-07-04 153622](https://github.com/user-attachments/assets/4876ca0f-0888-4db8-b950-d65550a29997)
 "
 contributing: "Feel free to fork this repo and submit pull requests.
   license: "MIT"
