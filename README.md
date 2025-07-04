@@ -14,8 +14,8 @@ readme:
   tech_stack:
     frontend: "HTML, CSS, EJS"
     backend: "Node.js, Express.js"
-    database: "MongoDB with Mongoose"
-    tools: "Git, Vercel (optional), Nodemon"
+    database: "MongoDB"
+    tools: "Git, Nodemon"
 
   project_structure: |
     BookStore/
@@ -42,15 +42,17 @@ readme:
       npm start
       # Visit http://localhost:8000
 
-  deployment_options:
-    - "Vercel"
-    - "Render"
-    - "Heroku"
-
   screenshots_note: "Add screenshots of the home page, book list, add form, etc."
+  
 
-  contributing: "Feel free to fork this repo and submit pull requests."
-
+  
+![Screenshot 2025-07-04 153712](https://github.com/user-attachments/assets/68cd22c4-2f9c-45f2-9081-158143863011)
+![Screenshot 2025-07-04 153649](https://github.com/user-attachments/assets/6f9b5036-1407-47f7-8de9-9361c722ab32)
+![Screenshot 2025-07-04 153639](https://github.com/user-attachments/assets/afe81f7a-a969-4db1-ba26-0ee782f4646b)
+![Screenshot 2025-07-04 153622](https://github.com/user-attachments/assets/4876ca0f-0888-4db8-b950-d65550a29997)
+![Screenshot 2025-07-04 153610](https://github.com/user-attachments/assets/02ab3d65-2c4e-4547-98a2-673da69a4d36)
+"
+contributing: "Feel free to fork this repo and submit pull requests.
   license: "MIT"
 
   author:
