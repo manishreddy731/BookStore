@@ -1,6 +1,6 @@
   title: "📚 BookStore"
   description: "A simple web application to manage your personal collection of books. Users can add, view, and delete books using a clean, responsive interface."
-
+  Live Link: https://web-production-0d49.up.railway.app/
   features:
     - "Add new books with title, author, genre, and description"
     - "View a list of all added books"
